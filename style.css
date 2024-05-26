@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.fundo{
+	background-image: url(Imagens/fundo-teste2.png);
+	background-size: cover;
+}
+
+.petc{
+	width: 500px;
+	margin: 70px 0 0 120px;
+}
+
+.ep{
+	text-align: right;
+	font-size: 75px;
+	color: #fff;
+	font-family: Cooper Black;
+	margin: -93px 180px 0 0;
+}
+
+.img1{
+	width: 800px;
+	margin: 22px 0 -10px 80px;
+}
+
+.img2{
+	width: 350px;
+	margin: 20px 0 -10px 0;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.ep2{
+	font-size: 80px;
+	color: darkorange;
+	font-family: Cooper Black;
+	margin: 30px 0 0 70px;
+}
+
+.menu{
+	background-color: darkorange;
+	height: 60px;
+	margin-top: 50px;
+	padding: 10px 0 0 20px;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	background-color: darkorange;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	padding-top: 12.5px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Arial;
+	color: #fff;
+}
+
+.menu ul li a.active{
+	font-weight: bold;
+}
+
+.marca1{
+	width: 450px;
+	margin-top: 50px;
+}
+
+.latas1{
+	width: 800px;
+	margin-top: 60px;
+}
+
+.marca2{
+	width: 500px;
+	margin-top: 100px;
+}
+
+.marca3{
+	width: 600px;
+	margin-top: 100px;
+}
+
+.marca4{
+	width: 700px;
+	margin-top: 100px;
+}
+
+.bongos1{
+	width: 400px;
+	margin: 5px 0 0 180px;
+}
+
+.bongosdiv{
+	font-size: 20px;
+	width: 550px;
+	text-align: center;
+	font-family: Arial;
+	margin: -300px 0 0 800px;
+	font-weight: bold;
+}
+
+.rodape{
+	height: 80px;
+	background-color: darkorange;
+	padding-top: 50px;
+}
+
+.rodape2{
+	height: 80px;
+	background-color: darkorange;
+	padding-top: 50px;
+	margin-top: 100px;
+}
+
+.prod{
+	text-align: center;
+	font-family: Cooper Black;
+	font-size: 22px;
+	color: white;
+}
+
+.linha{
+	background-color: Black;
+	height: 0.2px;
+	margin: 325px 0 50px 0;
+}
+
+.psab{
+	color: darkorange;
+	font-family: Arial;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+}
