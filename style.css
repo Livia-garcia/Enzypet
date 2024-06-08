@@ -132,9 +132,12 @@
 }
 
 .linha{
-	background-color: Black;
-	height: 0.2px;
-	margin: 325px 0 50px 0;
+	background-color: darkorange;
+	width: 150px;
+	height: 18px;
+	margin: 0 auto;
+	margin-top: 325px;
+	margin-bottom: 100px;
 }
 
 .psab{
