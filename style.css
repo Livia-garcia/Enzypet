@@ -8,12 +8,12 @@
 	background-size: cover;
 }
 
-.petc{
+.img_petcompany{
 	width: 500px;
 	margin: 70px 0 0 120px;
 }
 
-.ep{
+.enzypet{
 	text-align: right;
 	font-size: 75px;
 	color: #fff;
@@ -21,12 +21,12 @@
 	margin: -93px 180px 0 0;
 }
 
-.img1{
+.img_cao{
 	width: 800px;
 	margin: 22px 0 -10px 80px;
 }
 
-.img2{
+.img_gato{
 	width: 350px;
 	margin: 20px 0 -10px 0;
 }
@@ -35,7 +35,7 @@
 	text-decoration: none;
 }
 
-.ep2{
+.enzypet2{
 	font-size: 80px;
 	color: darkorange;
 	font-family: Cooper Black;
@@ -72,37 +72,50 @@
 	font-weight: bold;
 }
 
-.marca1{
-	width: 450px;
-	margin-top: 50px;
+.caixa{
+	margin-top: 80px;
 }
 
-.latas1{
-	width: 800px;
-	margin-top: 60px;
+.caixa img{
+	display: block;
+}
+
+.marca1{
+	width: 450px;
+	margin-top: 80px;
+	margin: 0 auto;
 }
 
 .marca2{
 	width: 500px;
 	margin-top: 100px;
+	margin: 0 auto;
 }
 
 .marca3{
 	width: 600px;
 	margin-top: 100px;
+	margin: 0 auto;
 }
 
 .marca4{
 	width: 700px;
 	margin-top: 100px;
+	margin: 0 auto;
 }
 
-.bongos1{
+.img_produtos{
+	width: 800px;
+	margin-top: 60px;
+	margin: 0 auto;
+}
+
+.produto{
 	width: 400px;
 	margin: 5px 0 0 180px;
 }
 
-.bongosdiv{
+.texto{
 	font-size: 20px;
 	width: 550px;
 	text-align: center;
@@ -124,7 +137,7 @@
 	margin-top: 100px;
 }
 
-.prod{
+.texto_rodape{
 	text-align: center;
 	font-family: Cooper Black;
 	font-size: 22px;
@@ -140,7 +153,7 @@
 	margin-bottom: 100px;
 }
 
-.psab{
+.text_sabores{
 	color: darkorange;
 	font-family: Arial;
 	font-size: 70px;
