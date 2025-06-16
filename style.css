@@ -46,7 +46,6 @@
 	background-color: darkorange;
 	height: 60px;
 	margin-top: 50px;
-	padding: 10px 0 0 20px;
 }
 
 .menu ul{
@@ -54,11 +53,13 @@
 }
 
 .menu ul li{
-	background-color: darkorange;
-	width: 150px;
-	height: 40px;
+	background-color:darkorange;
 	text-align: center;
-	padding-top: 12.5px;
+	height: 45px;
+	width: 150px;
+	padding-top: 15px;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 .menu ul li a{
@@ -69,6 +70,10 @@
 }
 
 .menu ul li a.active{
+	font-weight: bold;
+}
+
+.menu ul li a:hover{
 	font-weight: bold;
 }
 
