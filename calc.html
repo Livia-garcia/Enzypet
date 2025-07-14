@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<link rel="SHORTCUT ICON" href="Imagens/icone.png">
-		<link rel="stylesheet" type="text/css"  href="style.css" />
+		<link rel="stylesheet" type="text/css"  href="calc.css" />
+        <link rel="stylesheet" type="text/css"  href="style.css" />
 		<title>P&D - EnzyPet</title>
 	<head>
 	
@@ -15,70 +16,75 @@
 			</ul>
 		</nav>	
 
-        <form class="formulario" action="#">
-            <p class="text_calc">Calculadora de Dieta</p><br><br>
+        <br><br><br>
+        <div class="caixa_calc">
+            <form class="formulario_calc" action="#">
+                <p class="text_calc">Calculadora de Dieta</p><br><br>
 
-            <label>Data de Nascimento</label><br>
-                <label>Dia: </label>
-                <input type="text" id="dia" name="dia"/><br>
-                <label>Mês: </label>
-                <input type="text" id="mes" name="mes"/><br>
-                <label>Ano: </label>
-                <input type="text" id="ano" name="ano"/>
-            <br><br><br>
-            
-            <label>Gênero</label><br>
-                <input type="radio" id="macho" name="genero" value="macho" checked />
-                <label for="macho">Macho</label><br>
-                <input type="radio" id="femea" name="genero" value="femea"/>
-                <label for="macho">Fêmea</label>
-            <br><br><br>
-            
-            <label>Porte</label><br>
-                <input type="radio" id="mini" name="porte" value="mini" checked />
-                <label for="mini">Mini</label><br>
-                <input type="radio" id="pequeno" name="porte" value="pequeno" />
-                <label for="pequeno">Pequeno</label><br>
-                <input type="radio" id="medio" name="porte" value="medio" />
-                <label for="medio">Médio</label><br>
-                <input type="radio" id="grande" name="porte" value="grande" />
-                <label for="grande">Grande</label><br>
-                <input type="radio" id="gigante" name="porte" value="gigante" />
-                <label for="gigante">Pequeno</label>
-            <br><br><br>
+                <div class="perguntas">
+                    <label>Data de Nascimento</label><br>
+                        <label>Dia: </label>
+                        <input type="text" id="dia" name="dia"/><br>
+                        <label>Mês: </label>
+                        <input type="text" id="mes" name="mes"/><br>
+                        <label>Ano: </label>
+                        <input type="text" id="ano" name="ano"/>
+                    <br><br><br>
+                    
+                    <label>Gênero</label><br>
+                        <input type="radio" id="macho" name="genero" value="macho" checked />
+                        <label for="macho">Macho</label><br>
+                        <input type="radio" id="femea" name="genero" value="femea"/>
+                        <label for="macho">Fêmea</label>
+                    <br><br><br>
+                    
+                    <label>Porte</label><br>
+                        <input type="radio" id="mini" name="porte" value="mini" checked />
+                        <label for="mini">Mini</label><br>
+                        <input type="radio" id="pequeno" name="porte" value="pequeno" />
+                        <label for="pequeno">Pequeno</label><br>
+                        <input type="radio" id="medio" name="porte" value="medio" />
+                        <label for="medio">Médio</label><br>
+                        <input type="radio" id="grande" name="porte" value="grande" />
+                        <label for="grande">Grande</label><br>
+                        <input type="radio" id="gigante" name="porte" value="gigante" />
+                        <label for="gigante">Pequeno</label>
+                    <br><br><br>
 
-            <label>É castrado?</label><br>
-                <input type="radio" id="sim" name="castrado" value="sim" checked />
-                <label for="sim">Sim</label><br>
-                <input type="radio" id="nao" name="castrado" value="nao"/>
-                <label for="nao">Não</label>
-            <br><br><br>
+                    <label>É castrado?</label><br>
+                        <input type="radio" id="sim" name="castrado" value="sim" checked />
+                        <label for="sim">Sim</label><br>
+                        <input type="radio" id="nao" name="castrado" value="nao"/>
+                        <label for="nao">Não</label>
+                    <br><br><br>
 
-            <label>Peso (Kg)</label><br>
-                <input type="text" id="peso" name="peso"/>
-            <br><br><br>
+                    <label>Peso (Kg)</label><br>
+                        <input type="text" id="peso" name="peso"/>
+                    <br><br><br>
 
-            <label>Forma Física</label><br>
-                <input type="radio" id="abaixo" name="forma" value="abaixo" checked />
-                <label for="abaixo">Abaixo do peso</label><br>
-                <input type="radio" id="normal" name="forma" value="normal"/>
-                <label for="normal">Normal</label><br>
-                <input type="radio" id="sobre" name="forma" value="sobre"/>
-                <label for="sobre">Sobrepeso</label>
-            <br><br><br>
+                    <label>Forma Física</label><br>
+                        <input type="radio" id="abaixo" name="forma" value="abaixo" checked />
+                        <label for="abaixo">Abaixo do peso</label><br>
+                        <input type="radio" id="normal" name="forma" value="normal"/>
+                        <label for="normal">Normal</label><br>
+                        <input type="radio" id="sobre" name="forma" value="sobre"/>
+                        <label for="sobre">Sobrepeso</label>
+                    <br><br><br>
 
-            <label>Atividade Física</label><br>
-                <input type="radio" id="menos" name="atividade" value="menos" checked />
-                <label for="menos">Menos de 30 minutos por dia</label><br>
-                <input type="radio" id="entre" name="atividade" value="entre"/>
-                <label for="entre">Entre 30 e 60 minutos por dia</label><br>
-                <input type="radio" id="mais" name="atividade" value="mais"/>
-                <label for="mais">Mais de 60 minutos por dia</label>
-            <br><br><br>
+                    <label>Atividade Física</label><br>
+                        <input type="radio" id="menos" name="atividade" value="menos" checked />
+                        <label for="menos">Menos de 30 minutos por dia</label><br>
+                        <input type="radio" id="entre" name="atividade" value="entre"/>
+                        <label for="entre">Entre 30 e 60 minutos por dia</label><br>
+                        <input type="radio" id="mais" name="atividade" value="mais"/>
+                        <label for="mais">Mais de 60 minutos por dia</label>
+                </div>
 
-            <input class="botaoVol" type="submit" value="Calcular">
+                <br><br><input class="botao_calc" type="submit" value="Calcular">
 
-        </form>
+            </form>
+        </div>
+        <br><br><br>
 		
 		<footer class="rodape">
 			<p class="texto_rodape">EnzyPet - 2024</p>
