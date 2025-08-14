@@ -35,3 +35,19 @@
     font-family: 'Times New Roman';
     font-weight: bold;
 }
+
+.data{
+    display: flex;
+}
+
+.data input{
+    width: 40px;
+    height: 25px;
+}
+
+.data div{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
