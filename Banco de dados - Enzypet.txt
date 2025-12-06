@@ -1,0 +1,58 @@
+CREATE DATABASE "EnzyPet"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Portuguese_Brazil.1252'
+    LC_CTYPE = 'Portuguese_Brazil.1252'
+    LOCALE_PROVIDER = 'libc'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+CREATE TABLE Produto (
+     pro_id     	SERIAL,
+     pro_nome		VARCHAR(50),
+     pro_texto		TEXT,
+     pro_img       	VARCHAR(50),
+     pro_imgsabores	VARCHAR(50),
+	 PRIMARY KEY(pro_id)
+);
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Bongos', 'Alimento completo e balanceado para cães e gatos, elaborado com carnes e vegetais selecionados, com alta disgestibilidade e enriquecido com vitaminas e minerais.','Imagens/bongos2.png', 'Imagens/latas_bongos.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Celeiro Azul', 'A linha completa para cães e gatos celeiro azul premium é composta por 80% de carne e somente legumes selecionados, não contem aroma artificial e segue em sua composição livre de grãos. Super saudável!', 'Imagens/celeiro2.png', 'Imagens/latas2_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Linha Black Bongos', 'Alimento completo que atende as exigências nutricionais dos cães, enriquecido vitaminas e sais minerais necessários para que o cão tenha uma boa nutrição, saúde e bem estar.', 'Imagens/blackbongos2.png', 'Imagens/latas3_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Natural Gourmet', 'Alimento completo para cães, contendo probióticos, sem grãos e rico em fibras naturais. Desenvolvido por veterinários e criadores e produzido por especialistas e amantes de animais.', 'Imagens/natural2.png', 'Imagens/latas4_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Instinto', 'Alimentação saudável para cães, feito com ingredientes cozidos a vapor. Livre de grãos.', 'Imagens/instinto2.png', 'Imagens/latas5_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Mr. Jones Mr. Dog', 'Alimento úmido em forma de carne ao molho em pedaços. Tem tudo que o seu pet precisa para crescer feliz e saudável. Tem um sabor surpreendente e seu cão vai adorar.', 'Imagens/mrjones2.png', 'Imagens/latas6_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Bongos Caseirinho', 'Alimento natural e completo para cães adultos de todas as raças, preparado com ingredientes de alta qualidade, que atende todas as exigências nutricionais, sem aditivos artificiais.', 'Imagens/lata_caseirinho.png', 'Imagens/latas_caseirinho.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Daily Diet', 'Alimento natural para cães preparado com ingredientes de alta qualidade, sem aditivos artificiais. Comida de verdade, nutrição completa para manter seu cão saudável e feliz.', 'Imagens/dieta22.png', 'Imagens/dieta.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Real Food Eat Eats Comidinha Natural', 'Feliz com ingredientes frescos e saudáveis e cozidos a vapor, nossas opções nutritivas garantem uma alimentação completa, saborosa e equilibrada. Mais saúde pra os cães e gatos.', 'Imagens/comidinhas2.png', 'Imagens/comidinha2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Bongos Bifinhos', 'Petisco feito com tapioca, sem glicerina, processado a base de carnes frescas com ingredientes selecionados, sendo assim mais macio e mais saboroso.', 'Imagens/bifinhos1.png', 'Imagens/bifinho1_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Bongos Bifinhos', 'Petisco processado a base de carnes frescas com ingredientes selecionados, sendo assim mais saboroso e nutritivo.', 'Imagens/bifi2.png', 'Imagens/bifinho2_2.png');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Orelha Suína Desidratada', 'Incrível substituto para os perigosos ossinhos de couro bovino, pode usá-la como atrativo de enriquecimento ambiental escondendo-a em um local onde seu pet precise usar o olfato para encontra-la.', 'Imagens/orelha2.png', '-');
+
+INSERT INTO produto (pro_nome, pro_texto, pro_img, 
+pro_imgsabores) VALUES ('Bongos Molhos Especiais', 'Alimento específico para cães e gatos, feitos com os mesmos padrões elevados de todos os produtos bongos pet, torne a refeição seca diária do seu pet uma delícia culinária.', 'Imagens/molho2.png', 'Imagens/molhos2_2.png');
